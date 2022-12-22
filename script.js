@@ -18,3 +18,10 @@ menu[0].addEventListener("click", function() {
     }
  })
 
+ const btnAceita = document.querySelector(".btnAceita");
+ const pop = document.querySelector(".pop");
+
+ btnAceita.addEventListener("click", () => {
+    pop.style.display = 'none';
+ })
+
